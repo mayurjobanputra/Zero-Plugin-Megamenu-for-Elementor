@@ -23,4 +23,6 @@ Line 16 - the class id of the menu item from your main menu
 
 ## What's still not working:
 
-The opacity change works as expected but I can't figure out how to keep the opacity at 1.0 when the user is hovered over the megamenu that I built in Elementor. You can see what I mean in the gif below
+The opacity change works as expected on hover of the main menu item via Jquery. I can't figure out how to keep the opacity at 1.0 when the user is hovered over the megamenu section built in Elementor. You can see what I mean in the gif below. 
+
+I also haven't tested this in Mobile/Tablet but I would likely do a fall back to a standard menu in those cases (using the Responsive options inside Elementor), so I'm not worried about these use cases.
