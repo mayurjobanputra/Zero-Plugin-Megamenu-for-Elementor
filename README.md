@@ -15,3 +15,5 @@ How to use:
 3. Edit the provided script to reflect your unique css classes
 - Line 8, 17, 20, 22 - the custom class ID of the section you build inside Elementor
 - Line 16 - the class id of the menu item from your main menu
+
+For more info, see this youtube instruction video: (coming soon)
