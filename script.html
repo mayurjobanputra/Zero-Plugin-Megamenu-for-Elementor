@@ -3,12 +3,11 @@ Zero Plugin Megamenu for Elementor
 ====================================
 source: https://github.com/mayurjobanputra/Zero-Plugin-Megamenu-for-Elementor
 author: Mayur Jobanputra
-
 -->
 <style>
     .gethelpmenu {
     position:absolute !important;
-    opacity:0.2;
+    opacity:0;
     display:inline-flex;
 }
 </style>
@@ -18,10 +17,10 @@ jQuery(document).ready(function($){
 		$(".gethelpmenu").animate({'opacity':'1.0'}, 100);
 	},
 	function (){
-	   $(".gethelpmenu").animate({'opacity':'0.2'}, 100);
+	   $(".gethelpmenu").animate({'opacity':'0'}, 100);
 	});
 if($(".gethelpmenu").css('opacity') == '1') {
-    alert('Something!');
+    
 }
 });
 </script>
