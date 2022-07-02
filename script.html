@@ -1,0 +1,18 @@
+<script>
+jQuery(document).ready(function($){ //initialize jquery
+	$(".menu-item-37").hover(function () { //the menu item that will trigger the opacity of the elementor menu
+		$(".gethelpmenu").animate({'opacity':'1.0'}, 100); //the elementor section that will have opacity set on it
+	},
+	function (){
+	   $(".gethelpmenu").animate({'opacity':'0'}, 100); //set the opacity to 1.0 - ie: show it
+	});
+});
+</script>
+<style>
+    .gethelpmenu {
+    opacity:0;
+}
+.gethelpmenu:hover {
+    opacity:1.0;
+}
+</style>
