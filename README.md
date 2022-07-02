@@ -26,3 +26,5 @@ Line 16 - the class id of the menu item from your main menu
 The opacity change works as expected on hover of the main menu item via Jquery. I can't figure out how to keep the opacity at 1.0 when the user is hovered over the megamenu section built in Elementor. You can see what I mean in the gif below. 
 
 I also haven't tested this in Mobile/Tablet but I would likely do a fall back to a standard menu in those cases (using the Responsive options inside Elementor), so I'm not worried about these use cases.
+
+![screen recording of the issue](https://github.com/mayurjobanputra/Zero-Plugin-Megamenu-for-Elementor/blob/main/chrome_DU5GhKt8tz.gif)
