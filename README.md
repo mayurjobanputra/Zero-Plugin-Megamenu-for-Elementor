@@ -1,4 +1,4 @@
-# An Experimental Megamenu for Elementor using ONLY Jquery and CSS and standard Elementor
+# A Megamenu for Elementor using ONLY Jquery and CSS and standard Elementor sections and blocks!
 
 ## NOTE: This isn't working perfectly just yet. See notes below.
 
@@ -21,9 +21,3 @@ Lines below that you need to edit for your own needs (in the HTML file I provide
 - Line 16 - the class id of the menu item from your main menu
 
 ## What's still not working:
-
-The opacity change works as expected on hover of the main menu item via Jquery. I can't figure out how to keep the opacity at 1.0 when the user is hovered over the megamenu section built in Elementor. You can see what I mean in the gif below. 
-
-I also haven't tested this in Mobile/Tablet but I would likely do a fall back to a standard menu in those cases (using the Responsive options inside Elementor), so I'm not worried about these use cases.
-
-![screen recording of the issue](https://github.com/mayurjobanputra/Zero-Plugin-Megamenu-for-Elementor/blob/main/chrome_DU5GhKt8tz.gif)
