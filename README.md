@@ -16,4 +16,4 @@ How to use:
 
 ## What's still not working:
 
-The opacity change works as expected but I can't figure out how to keep the opacity at 1.0 when the user is hovered over the megamenu
+The opacity change works as expected but I can't figure out how to keep the opacity at 1.0 when the user is hovered over the megamenu that I built in Elementor. You can see what I mean in the gif below
