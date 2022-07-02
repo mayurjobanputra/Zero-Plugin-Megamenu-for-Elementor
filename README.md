@@ -10,11 +10,10 @@ Requirements:
 2. A navigation menu (native Elementor widget) added into your page/section/header and active
 3. Ability to add html to your footer (I use a native footer section on the site built via Elementor)
 
-How to use:
+How to use (youtube coming soon):
 1. Directly below your main menu, build your content rich megamenu in a new section
 2. Drop the provided script inside your footer in an html block
-3. Edit the footer script to reflect your unique css classes (use code inspector in chrome)
-4. Ensure that your section containing the megamenu (the dropdown) has a CSS property of display absolute
+3. Edit the footer script to reflect your unique css classes
 
 Lines below that you need to edit for your own needs (in the HTML file I provided in this repo):
 
