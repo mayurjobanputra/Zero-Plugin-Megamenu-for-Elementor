@@ -1,4 +1,4 @@
-# An Experimental Megamenu for Elementor using just Jquery and CSS
+# An Experimental Megamenu for Elementor using ONLY Jquery and CSS and standard Elementor
 
 How it works:
 Build your Megamenu content directly below your main navigation menu. Place your content inside a section and then use the provided script.html inside your footer in an HTML block. 
