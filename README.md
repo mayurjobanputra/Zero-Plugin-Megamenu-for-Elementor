@@ -1,4 +1,4 @@
-# A Megamenu for Elementor using ONLY Jquery and CSS and standard Elementor sections and blocks!
+# A Megamenu for Elementor using ONLY Jquery and CSS and standard Elementor sections and blocks! - Just 30 lines of code!
 
 About this:
 Build your Megamenu content directly below your main navigation menu as a native Elementor section. Place your content inside a new section with a custom class ID and then use the provided script.html inside your footer in an HTML block so that it triggers when the page is rendered. 
