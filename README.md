@@ -13,7 +13,7 @@ How to use:
 1. Directly below your main menu, build your submenu in a new section and give it a unique class id (unique per dropdown)
 2. Drop the provided script inside your footer in an html block
 3. Edit the provided script to reflect your unique css classes
-- Line 8, 17, 20, 22 - the custom class ID of the section you build inside Elementor
-- Line 16 - the class id of the menu item from your main menu
+- wherever you see **.gethelpmenu** change to the custom class ID assigned to the section you built inside Elementor
+- wherever you see **.menu-item-37** change to the class id of the menu item from your main menu
 
-For more info, see this youtube instruction video: (coming soon)
+If you need more help, email me hello @ mayur dot ca
