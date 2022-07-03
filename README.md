@@ -42,4 +42,4 @@ If you need more help, email me hello @ mayur dot ca
 
 ## Outstanding Issues ##
 
-- The mouseover/hover event for the menu item doesn't work as expected. The main nav menu item still shows as a hover intent, even when the mouse isn't over it. Not sure how to fix this. Workaround: the user has to move the mouse into the megamenu and then out of it to hide the submenu
+- The mouseover/hover event for the menu item doesn't exactly work as expected. The main nav menu item still shows as a hover intent, even when the mouse isn't over it in some cases. I'm not sure how to fix this just yet. Workaround: the user has to move the mouse into the megamenu and then out of it to hide the submenu
