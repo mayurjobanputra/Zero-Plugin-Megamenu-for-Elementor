@@ -7,15 +7,15 @@
 
 Build a megamenu with Elementor natively using some Javascript and CSS. 
 
-**How it works:
+**How it works:**
 
 Javascript intercepts the mouseover/hover events and sets the opacity of an elementor section to 1.0. 
 
-**How to install it (overview):
+**How to install it (overview):**
 
 Build your Megamenu content directly below your main navigation menu as a native Elementor section. Give this section a custom class ID and then use the provided script.html (don't forget to change the class ids in this file) inside your footer in an HTML block so that the submenu shows (opacity becomes 1.0) when the mouse is over the main menu item. 
 
-**Detailed Instructions:
+**Detailed Instructions:**
 
 1. Directly below your main menu in your header, build your submenu in a new section and give it a unique class id
 2. Drop the provided script inside your footer in an html block
@@ -23,7 +23,7 @@ Build your Megamenu content directly below your main navigation menu as a native
 - wherever you see **.gethelpmenu** in the script file change to the custom class ID assigned to the section you built inside Elementor
 - wherever you see **.menu-item-37** change to the class id of the menu item from your main menu
 
-**Requirements:
+**Requirements:**
 
 1. Elementor (free or pro) installed and activated. If you use Elementor free, you will need to install a plugin that lets you build headers via Elementor. I'm using pro in this example.
 2. A navigation menu widget (native Elementor widget) added into your header and displaying your main menu
