@@ -17,7 +17,7 @@ Build your Megamenu content directly below your main navigation menu as a native
 
 **Detailed Instructions:**
 
-1. Directly below your main menu in your header, build your submenu in a new section and give it a unique class id
+1. Directly below your main menu in your header, build your submenu in a new section and give it a unique class id. Use whatever Elementor blocks you like.
 2. Drop the provided script inside your footer in an html block
 3. Edit the script to reflect your unique css classes
 - wherever you see **.gethelpmenu** in the script file change to the custom class ID assigned to the section you built inside Elementor
