@@ -9,11 +9,10 @@ author: Mayur Jobanputra
     position:absolute !important;
     opacity:0;
     z-index:100;
-}
-@media screen and (min-width:1025px) { 
-	.menu-item-37 .elementor-nav-menu--dropdown { display:none !important; }
-}
-.menu-item-37 a {font-weight:400;}
+	}
+	@media screen and (min-width:1025px) { 
+		.menu-item-37 .elementor-nav-menu--dropdown { display:none !important; }
+	}
 </style>
 <script>
 jQuery(document).ready(function($){
@@ -25,17 +24,8 @@ jQuery(document).ready(function($){
 	*/
 	$(".menu-item-37").hover(function () { 
 		$(".gethelpmenu").animate({'opacity':'1.0'}, 100);
-	},
-	/* 
-	====================
-	if the submenu opacity isn't 1, hide it 
-	====================
-	*/
-	function (){
-	if($(".gethelpmenu").css('opacity') !== '1') { 
-		$(".gethelpmenu").animate({'opacity':'0'}, 100);
-		}
-	});
+	})
+	
 	/* 
 	====================
 	if the submenu is being shown, keep showing it while the mouse is over it
@@ -43,15 +33,20 @@ jQuery(document).ready(function($){
 	*/
 	if($(".gethelpmenu").css("opacity") == "1.0") { 
 		$(".gethelpmenu").hover(function(e){ 
-			$(".gethelpmenu").animate({'opacity':'1.0'}, 100); 
-			$("menu-item-37 a").css("font-weight", "400");
-	
+			$(".gethelpmenu").animate({'opacity':'1.0'}, 100); 	
 		});
 	}
+		
+	/* 
+	====================
+	if the users mouse leaves the submenu, hide the submenu
+	====================
+	*/
 	$(".gethelpmenu").on('mouseleave',function(){
-    		$(this).animate({opacity:0},300);
-		$( ".menu-item-37 a" ).removeClass( "highlighted" );
+    		$(".gethelpmenu").animate({opacity:0},300);
+			$( ".menu-item-37 a" ).removeClass( "highlighted" );
 	})
+	
 
 
 });
