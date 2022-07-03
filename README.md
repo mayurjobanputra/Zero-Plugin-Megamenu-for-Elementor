@@ -23,6 +23,14 @@ Build your Megamenu content directly below your main navigation menu as a native
 - wherever you see **.gethelpmenu** in the script file change to the custom class ID assigned to the section you built inside Elementor
 - wherever you see **.menu-item-37** change to the class id of the menu item from your main menu
 
+**Watch the Youtube video >>>>** https://www.youtube.com/watch?v=sLyoaLSXPz4
+
+<a target="blank" href="https://www.youtube.com/watch?v=sLyoaLSXPz4"><img src="100%25%20FREE.png" height="200"></a>
+
+
+
+
+
 **Requirements:**
 
 1. Elementor (free or pro) installed and activated. If you use Elementor free, you will need to install a plugin that lets you build headers via Elementor. I'm using pro in this example.
