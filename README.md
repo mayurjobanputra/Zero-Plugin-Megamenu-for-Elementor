@@ -42,4 +42,4 @@ If you need more help, email me hello @ mayur dot ca
 
 ## Outstanding Issues ##
 
-- The mouseover/hover event for the menu item doesn't exactly work as expected. The main nav menu item still shows as a hover intent, even when the mouse isn't over it in some cases. I'm not sure how to fix this just yet. Workaround: the user has to move the mouse into the megamenu and then out of it to hide the submenu
+- I would like for the submenu to dissappear when the user leaves the column. I suspect I need to use nested if/then or some other way to detect this user event
