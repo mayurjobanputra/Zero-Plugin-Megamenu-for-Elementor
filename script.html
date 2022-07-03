@@ -17,6 +17,7 @@ author: Mayur Jobanputra
 </style>
 <script>
 jQuery(document).ready(function($){
+
 	/*
 	====================	
 	if hovering over the main menu item, show the submenu 
@@ -47,19 +48,11 @@ jQuery(document).ready(function($){
 	
 		});
 	}
-});
-</script>
-<script>
-/* 
-====================
-This code should probably be in the above script block, but I haven't moved it yet. I was troubleshooting
-====================
-*/
-	
-jQuery(document).ready(function($){
-/* whenever the mouse leaves the submenu, hide it */
 	$(".gethelpmenu").on('mouseleave',function(){
     		$(this).animate({opacity:0},300);
-  	})
+		$( ".menu-item-37 a" ).removeClass( "highlighted" );
+	})
+
+
 });
 </script>
