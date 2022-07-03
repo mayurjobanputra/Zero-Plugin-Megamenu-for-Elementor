@@ -9,7 +9,7 @@
 
 **About this repo:**
 
-Build a megamenu with Elementor natively using some Javascript and CSS. 
+Build a megamenu with Elementor natively using some Javascript/Jquery and CSS. 
 
 **How it works:**
 
@@ -17,15 +17,15 @@ Javascript intercepts the mouseover/hover events and sets the opacity of an elem
 
 **How to install it (overview):**
 
-Build your Megamenu content directly below your main navigation menu as a native Elementor section. Give this section a custom class ID and then use the provided script.html (don't forget to change the class ids in this file) inside your footer in an HTML block so that the submenu shows (opacity becomes 1.0) when the mouse is over the main menu item. 
+Build your Megamenu content directly below your main navigation menu as a native Elementor section. Give this section a custom class name and then use the provided script.html (don't forget to change the class ids in this file) inside your footer in an HTML block so that the submenu shows (opacity becomes 1.0) when the mouse is over the main menu item. 
 
 **Detailed Instructions:**
 
 1. Directly below your main menu in your header, build your submenu in a new section and give this section a unique class name. Use whatever Elementor blocks you like inside (I use a few inner sections). I haven't tested this with multiple sections, so if you want to create a comlex layout, stick with inner sections inside a single section vs multiple sections stacked. 
 2. Drop the provided script inside your footer in an html block. Get the script here: https://github.com/mayurjobanputra/Zero-Plugin-Megamenu-for-Elementor/blob/main/script.html
 3. Edit the script to reflect your unique css classes using the guideline below
-- wherever you see **.gethelpmenu** in the script file change to the custom class ID assigned to the section you built inside Elementor
-- wherever you see **.menu-item-37** change to the class id of the menu item from your main menu
+- wherever you see **.gethelpmenu** in the script file change to the custom class you assigned to the section you built inside Elementor
+- wherever you see **.menu-item-37** change to the unique class name of the menu item from your main menu
 
 **Watch the Youtube video >>>>** https://www.youtube.com/watch?v=sLyoaLSXPz4
 
