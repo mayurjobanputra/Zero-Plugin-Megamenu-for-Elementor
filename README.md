@@ -17,3 +17,7 @@ How to use:
 - wherever you see **.menu-item-37** change to the class id of the menu item from your main menu
 
 If you need more help, email me hello @ mayur dot ca
+
+## Outstanding Issues ##
+
+- The mouseover/hover event for the menu item doesn't work as expected. The main nav menu item still shows as a hover intent, even when the mouse isn't over it. Not sure how to fix this. Workaround: the user has to move the mouse into the megamenu and then out of it to hide the submenu
