@@ -26,6 +26,7 @@ Build your Megamenu content directly below your main navigation menu as a native
 3. Edit the script to reflect your unique css classes using the guideline below
 - wherever you see **.gethelpmenu** in the script file change to the custom class you assigned to the section you built inside Elementor
 - wherever you see **.menu-item-37** change to the unique class name of the menu item from your main menu
+4. Edit the z-index (line 9 of the script) to be exactly 1 index higher than the section above the submenu. In my case, I set the section above the submenu to have a z-index of 99 and set my submenu to have a z-index of 100. 
 
 **Watch the Youtube video >>>>** https://www.youtube.com/watch?v=sLyoaLSXPz4
 
