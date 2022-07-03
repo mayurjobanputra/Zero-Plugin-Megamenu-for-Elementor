@@ -1,4 +1,4 @@
-# A Megamenu for Elementor using ONLY Jquery and CSS and standard Elementor sections and blocks
+# A 100% FREE Megamenu for Elementor using ONLY Jquery and CSS and standard Elementor sections and blocks
 
 <a target="blank" href="https://www.youtube.com/watch?v=sLyoaLSXPz4"><img src="100%25%20FREE.png"></a>
 
