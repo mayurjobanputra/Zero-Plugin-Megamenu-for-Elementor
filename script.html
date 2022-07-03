@@ -6,8 +6,6 @@ author: Mayur Jobanputra
 -->
 <style>
     .gethelpmenu {
-    position:absolute !important;
-    opacity:0;
     z-index:100;
 	}
 	@media screen and (min-width:1025px) { 
@@ -22,7 +20,10 @@ jQuery(document).ready(function($){
 	if hovering over the main menu item, show the submenu 
 	====================
 	*/
-	$(".menu-item-37").hover(function () { 
+	$(".gethelpmenu").animate({opacity:0},300);
+	$(".gethelpmenu").css({position: 'absolute'});
+	
+	$(".menu-item-37 a").hover(function () { 
 		$(".gethelpmenu").animate({'opacity':'1.0'}, 100);
 	})
 	
@@ -50,14 +51,13 @@ jQuery(document).ready(function($){
 	
 	/* 
 	====================
-	if the users enters any other menu item sibling, hide the submenu
+	if the users enters any menu item sibling, hide the submenu
 	====================
 	*/
 	$(".menu-item").not(".menu-item-37").mouseenter(function(){
     		$(".gethelpmenu").animate({opacity:0},300);
-		$( ".menu-item-37 a" ).removeClass( "highlighted" );
+			$( ".menu-item-37 a" ).removeClass( "highlighted" );
 	});
-	
 
 });
 </script>
