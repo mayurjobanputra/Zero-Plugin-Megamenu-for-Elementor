@@ -43,4 +43,4 @@ If you need more help, email me hello @ mayur dot ca
 
 ## Outstanding Issues ##
 
-- I would like for the submenu to dissappear when the user leaves the column. I suspect I need to use nested if/then or some other way to detect this user event
+- I would like for the submenu to dissappear when the mouse pointer leaves the column (that cointains the megamenu). I suspect I need to use nested if/then or some other way to detect this user event. Essentially, I need to write some JS to detect that the megamenu opacity isn't zero, and in only those cases, hide the megamenu if the mouse leaves the column, after entering it. At the moment, the menu dissappears if you hover over another menu item in the main navigation or if you scroll down below the entire megamenu parent section.
